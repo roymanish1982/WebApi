@@ -5,6 +5,9 @@ using System.Web;
 
 namespace WebApiCore.Models
 {
+    /// <summary>
+    /// A Product Class
+    /// </summary>
     public class Product
     {
         public int Id { get; set; }
