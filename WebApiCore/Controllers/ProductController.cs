@@ -8,7 +8,7 @@ using System.Web.Http;
 using WebApiCore.Models;
 
 /*
-
+https://github.com/Microsoft/aspnet-api-versioning/wiki/Versioning-via-the-URL-Path
 WebApi Attribute Routing Using Version
 
 Steps : 
