@@ -46,6 +46,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.AspNet.WebApi.Versioning, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Versioning.2.2.0\lib\net45\Microsoft.AspNet.WebApi.Versioning.dll</HintPath>
     </Reference>
@@ -277,6 +283,10 @@
     <ProjectReference Include="..\ApplicationService\ApplicationService.csproj">
       <Project>{43e53136-0bdd-48a6-8021-ae38a388bd4a}</Project>
       <Name>ApplicationService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebApiDataAccess\WebApiDataAccess.csproj">
+      <Project>{054e26fc-caf5-410f-a0b1-5c9684714505}</Project>
+      <Name>WebApiDataAccess</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
