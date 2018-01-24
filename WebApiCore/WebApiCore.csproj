@@ -196,6 +196,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helper\AuthorizationHeaderHandler.cs" />
+    <Compile Include="Helper\CustomJsonFormatter.cs" />
     <Compile Include="Helper\JsonReasult.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

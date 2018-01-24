@@ -12,5 +12,13 @@ namespace ApplicationService.Interface
         IEnumerable<Employee> GetEmployee();
 
         Employee GetEmployee(int id);
+
+        int AddEmployee(Employee employee);
+
+        int DeleteEmployee(int id);
+
+        int UpdateEmployee(int id, Employee employee);
+
+        IEnumerable<Employee> GetEmployeeByGender(string gender);
     }
 }
